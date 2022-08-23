@@ -1,6 +1,6 @@
 const grid = document.querySelector('.grid');
-const spanPlayer = document.querySelector('.player')
-const timer = document.querySelector('.timer')
+const spanPlayer = document.querySelector('.player');
+const timer = document.querySelector('.timer');
 
 const characters = [
     'ANGULAR',
@@ -112,8 +112,7 @@ const loadGame = () => {
 
     
 
-    duplicateCharacters.forEach((character) => {
-
+    shuffledArray.forEach((character) => {
         const card = createrCard (character);
         grid.appendChild(card);
 
