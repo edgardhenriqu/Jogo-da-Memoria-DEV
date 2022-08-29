@@ -4,6 +4,7 @@
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+    background-image: url(../images/Programming.jpg);
 }
 
 .login_header {
@@ -20,8 +21,9 @@
 }
 
 .login_header h1 {
-    color: #333;
+    color : rgb(0, 238, 247);
     font-size: 1.5em;
+    
 }
 
 .login_input {
